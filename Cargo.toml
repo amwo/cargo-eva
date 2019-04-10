@@ -1,8 +1,11 @@
 [package]
-name = "cargo-rest"
+name = "cargo-eva"
 version = "0.1.0"
-authors = ["amwo <nuude.ad@gmail.com>"]
+authors = ["am <tsushimori@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+futures = "0.1.26"
 rocket = "0.4.0"
+reql = "0.0.26"
+reql-types = "0.0.4"
